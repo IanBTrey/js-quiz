@@ -1,0 +1,10 @@
+.container{
+  background: skyblue;
+}
+.jumbotron{
+  color: red;
+  padding-left: 34px;
+}
+.hide{
+  display: none;
+}
