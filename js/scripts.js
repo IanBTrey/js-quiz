@@ -1,35 +1,30 @@
 //==== Business logic====//
-
 $(document).ready(function() {
 
-$("form#mumbiForm").submit(function(event){
-var qN1 = $("input:radio[name=language]:checked").val();
-var qN2 = $("input:radio[name=block]:checked").val();
-var qN3 = $("input:radio[name=jquery]:checked").val();
-var qN4 = $("input:radio[name=inline]:checked").val();
-var qN5 = $("input:radio[name=github]:checked").val();
-var qN6 = $("input:radio[name=type]:checked").val();
+  $("form#mumbiForm").submit(function(event){
+    var qNI = $("input:radio[name=jquery]:checked").val();
+    var qNII = $("input:radio[name=js]:checked").val();
+    var qNIII = $("input:radio[name=founder]:checked").val();
+    var qNIV = $("input:radio[name=DOM]:checked").val();
+    var qNV = $("input:radio[name=html]:checked").val();
+    var qNVI = $("input:radio[name=insert]:checked").val();
+    var qNVII = $("input:radio[name=script]:checked").val();
+    var qNVIII = $("input:radio[name=alert]:checked").val();
+    var qNIX = $("input:radio[name=create]:checked").val();
+    var qNX = $("input:radio[name=programming]:checked").val();
 
-var totalScore = parseInt(qN1)+parseInt(qN2)+parseInt(qN3)+parseInt(qN4)+parseInt(qN5)+parseInt(qN6);
-$("#totalScore").text("HEY THERE! THIS IS WHAT YOU SCORED: " + totalScore + " marks out of a possible 96 marks");
-if (totalScore>=80 && totalScore<=100) {
-  alert("passed")
+    var totalScore = parseInt(qNI)+parseInt(qNII)+parseInt(qNIII)+parseInt(qNIV)+parseInt(qNV)+parseInt(qNVI)+parseInt(qNVII)+parseInt(
+      qNVIII)+parseInt(qNIX)+parseInt(qNX);
+   $("#totalScore").text("Bonjour! THIS IS WHAT YOU GET AFTER THE QUIZ!  ===>> " + totalScore + " points out of a possible 100 points");
 
-}
-else if (totalScore>=50 && totalScore<80) {
-  alert("fairly passed")
+  
 
-}
-else {
-  alert("fail")
-}
 
-//==== User Interface ====//
+    //==== User Interface ====//
 
-$("form#mumbiForm").slideUp(1250);
-$("#totalScore").show(3000);
-$(".hide").show()
-event.preventDefault();
-});
+    $("form#mumbiForm").slideUp(1550);
+    $("#totalScore").show(4050);
+     event.preventDefault();
+  });
 
 });

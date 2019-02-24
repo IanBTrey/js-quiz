@@ -1,17 +1,208 @@
-<!DOCTYPE>
+<!DOCTYPE html>
+<html>
 <head>
-<meta charset="utf-8">
-<title>MUMBIMUMBI</title>
-<link href="css/bootsrap.css" rel="stylesheet" type="text/css">
-<link href="css/styles.css" rel="stylesheet" type="text/css">
+  <title>MUMBIMUMBI</title>
 </head>
 <body>
+  -
+  <meta charset="utf-8">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
   <div class="container">
-  <div class="jumbotron">
-    <form id="mumbiForm"
-    <h1><em>HOT QUIZ</em>
-    <div class="row">
-    <div class="col-md-6">
-    <div class="panel panel-default">
-    <div class="panel-heading">
-    
+    <div class="jumbotron">
+      <form id="mumbiForm" name="mumbiForm">
+        <h1><strong>HOT QUIZ</strong></h1>
+        <div class="form-group">
+    <label for="InputName">Your name</label>
+    <input type="name" class="form-control" id="InputName" aria-describedby="nameHelp" placeholder="Enter name">
+    <small id="nameHelp" class="form-text text-muted">make sure to observe caps on writing name.</small>
+  </div>
+  <div class="form-group">
+    <label for="InputPassword">Password</label>
+    <input type="password" class="form-control" id="InputPassword" placeholder="Password">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="Check">
+    <label class="form-check-label" for="Check">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">I.What is the meaning of JQUERY?</h3>
+              </div>
+              <div class="panel-body">
+                <input name="jquery" type="radio" value="0">A set of code that helps set up front end framework<br>
+                <input name="jquery" type="radio" value="0">A technique of loading a program into a computer<br>
+                <input name="jquery" type="radio" value="10">A library of already written JAVASCRIPT functions<br>
+                <input name="jquery" type="radio" value="0">None of the above
+              </div>
+              <div class="panel-footer">
+                <p class="strong"><strong>click on the correct answer!</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">II.Which of the following is not a Javascript method?</h3>
+              </div>
+              <div class="panel-body">
+                <input name="js" type="radio" value="10">.toflirting<br>
+                <input name="js" type="radio" value="0">.conCat<br>
+                <input name="js" type="radio" value="0">.push<br>
+                <input name="js" type="radio" value="0">.reverse<br>
+              </div>
+              <div class="panel-footer">
+                <p class="strong"><strong>click on the correct answer!</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">III.Who was the founder of Javascript?</h3>
+              </div>
+              <div class="panel-body">
+                <input name="founder" type="radio" value="0">Kevin Systrom<br>
+                <input name="founder" type="radio" value="0">Cal Henderson<br>
+                <input name="founder" type="radio" value="0">Dustin Moskovitz<br>
+                <input name="founder" type="radio" value="10">Brendan Eich<br>
+              </div>
+              <div class="panel-footer">
+                <p class="strong"><strong>click on the correct answer!</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">IV.What does DOM stand for?</h3>
+              </div>
+              <div class="panel-body">
+                <input name="DOM" type="radio" value="10">Document Object Model<br>
+                <input name="DOM" type="radio" value="0">Dinner on me<br>
+                <input name="DOM" type="radio" value="0">Development Objective Module<br>
+                <input name="DOM" type="radio" value="0">None of the above<br>
+              </div>
+              <div class="panel-footer">
+                <p class="strong"><strong>click on the correct answer!</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">V.Which HTML element do we put the Javascript?</h3>
+              </div>
+              <div class="panel-body">
+                <input name="html" type="radio" value="10">script<br>
+                <input name="html" type="radio" value="0">Javascript<br>
+                <input name="html" type="radio" value="0">js<br>
+                <input name="html" type="radio" value="0">None of the above<br>
+              </div>
+              <div class="panel-footer">
+                <p class="strong"><strong>click on the correct answer!</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">VI.Where is the correct place to insert the Javascript?</h3>
+              </div>
+              <div class="panel-body">
+                <input name="insert" type="radio" value="0">body section<br>
+                <input name="insert" type="radio" value="0">head section<br>
+                <input name="insert" type="radio" value="10">both head and body sections<br>
+                <input name="insert" type="radio" value="0">None of the above<br>
+              </div>
+              <div class="panel-footer">
+                <p class="strong"><strong>click on the correct answer!</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">VII.What is the correct syntax for referring to an external script called "xxx.js"?</h3>
+              </div>
+              <div class="panel-body">
+                <input name="script" type="radio" value="0">script href=xxx.js<br>
+                <input name="script" type="radio" value="0">script name=xxx.js<br>
+                <input name="script" type="radio" value="0">script prompt=xxx.js<br>
+                <input name="script" type="radio" value="10">script src=xxx.js<br>
+              </div>
+              <div class="panel-footer">
+                <p class="strong"><strong>click on the correct answer!</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">VIII.How to write 'hello world' in an alert box?</h3>
+              </div>
+              <div class="panel-body">
+                <input name="alert" type="radio" value="0">msg("hello world")<br>
+                <input name="alert" type="radio" value="10">alert("hello world")<br>
+                <input name="alert" type="radio" value="0">msgBox("hello world")<br>
+                <input name="alert" type="radio" value="0">alertBox("hello world")<br>
+              </div>
+              <div class="panel-footer">
+                <p class="strong"><strong>click on the correct answer!</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">IX.How to create a function in Javascript?</h3>
+              </div>
+              <div class="panel-body">
+                <input name="create" type="radio" value="10">function myFunction()<br>
+                <input name="create" type="radio" value="0">function=myFunction<br>
+                <input name="create" type="radio" value="0">function=myFunction<br>
+                <input name="create" type="radio" value="0">None of the above<br>
+              </div>
+              <div class="panel-footer">
+                <p class="strong"><strong>click on the correct answer!</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">X.Which one is a programming language?</h3>
+              </div>
+              <div class="panel-body">
+                <input name="programming" type="radio" value="0">jquery<br>
+                <input name="programming" type="radio" value="0">bootstrap<br>
+                <input name="programming" type="radio" value="0">css<br>
+                <input name="programming" type="radio" value="10">Javascript<br>
+              </div>
+              <div class="panel-footer">
+                <p class="strong"><strong>click on the correct answer!</strong></p>
+              </div>
+            </div>
+          </div>
+          <div id="submit">
+            <p class="p">Click here to submit</p><button class="btn btn-primary" type="submit">Submit</button>
+          </div>
+        </div>
+      </form>
+      <div id="totalScore"></div>
+      <p>please <a href="index.html">refresh this page to retry!
+      <p></p></a></p>
+      <div class="hide"><img alt="" src="https://img.icons8.com/color/2x/user.png"></div>
+      <script src="js/jquery-3.3.1.js">
+      </script>
+      <script src="js/scripts.js">
+      </script>
+      <p></p>
+    </div>
+  </div>
+</body>
+</html>

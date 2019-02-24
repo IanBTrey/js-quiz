@@ -2,15 +2,24 @@
 #### This project basically gives your score after answering questions by filling forms. 2019
 #### By **IAN BRIAN KIBET KIRUI TREVOR II**
 ## Description
-On opening the page,six multi-choiced question are provided in which the user gets to input one answer out of a possible four.Once the user is through answering and submitting by clicking the 'submit' button,the score is provided and a there is a choice of refreshing the page once done to start all over again.
+On opening the page,ten multi-choiced question are provided in which the user gets to input one answer out of a possible four.Once the user is through answering and submitting by clicking the 'submit' button,the score is   provided and a there is a choice of refreshing the page once done to start all over again.
 ## Setup/Installation Requirements
 The project works on grounds of a compatible browser,good network and internet source.
 ## Known Bugs
 Negative.
 ## BDD
-| Header One     | Header Two     |
-| :------------- | :------------- |
-| Item One       | Item Two       |
+| :--------------------| :----------------------------| :---------------------------|
+| Behavior             | Input                        | Output                      |
+| :--------------------| :----------------------------| :---------------------------|
+| Gathering user input | Click one out of four choices| "corect"/"not correct"      |
+| :--------------------| :----------------------------| :---------------------------|
+| Awarding points for  |right/wrong                   |  10pts/0pts                 |
+| each question        |                              |                             |
+| :--------------------| :----------------------------| :---------------------------|
+| Total score          | 8/10,5/10-7/10,below 5/10    |pass,fair,fail               |
+| :--------------------| :----------------------------| :---------------------------|
+| Evaluation of results| pass,fair,fail               |excellent,fair attempt,retake|
+| :--------------------| :----------------------------| :---------------------------|
 ## Technologies Used
 This project runs on HTML,CSS and JAVASCRIPT.
 ## Support and contact details
