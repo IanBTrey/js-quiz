@@ -23,11 +23,11 @@ $(document).ready(function() {
       alert("excellent")
     }
     else if (percent>=50 && percent <80) {
-      alert("Fair")
+      alert("Fair...you can do better mate!")
 
     }
     else {
-      alert("fail")
+      alert("fail...you need to retake the test!!!")
     }
 
 
