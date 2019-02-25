@@ -11,7 +11,7 @@ Negative.
 | :--------------------| :----------------------------| :---------------------------|
 | Behavior             | Input                        | Output                      |
 | :--------------------| :----------------------------| :---------------------------|
-| Gathering user input | Click one out of four choices| "corect"/"not correct"      |
+| Gathering user input | Click one out of four choices| "correct"/"not correct"      |
 | :--------------------| :----------------------------| :---------------------------|
 | Awarding points for  |right/wrong                   |  10pts/0pts                 |
 | each question        |                              |                             |
