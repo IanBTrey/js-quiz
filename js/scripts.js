@@ -31,7 +31,7 @@ $(document).ready(function() {
     }
 
 
-    $("form#mumbiForm").slideUp(5000);
+    $("form#mumbiForm").slideUp(1000);
     $("#totalScore").show(5000);
     $(".hide").show(5000)
      event.preventDefault();
