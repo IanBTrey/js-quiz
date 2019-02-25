@@ -11,11 +11,11 @@ Negative.
 
 | Behavior             | Input                        | Output                      |
 | :--------------------| :----------------------------| :---------------------------|
-| Gathering user input | Click one out of four choices| "correct"/"not correct"     |
-| Awarding points for  |right/wrong                   |  10pts/0pts                 |
+| 1.Gathering user input | Click one out of four choices| "correct"/"not correct"     |
+| 2.Awarding points for  |right/wrong                   |  10pts/0pts                 |
 | each question        |                              |                             |
-| Total score          | 8/10,5/10-7/10,below 5/10    | pass,fair,fail               |
-|  Evaluation of results | pass,fair,fail               | excellent,fair attempt,retake |
+| 3.Total score          | 8/10,5/10-7/10,below 5/10    | pass,fair,fail               |
+|  4.Evaluation of results | pass,fair,fail               | excellent,fair attempt,retake |
 This project runs on HTML,CSS and JAVASCRIPT.
 ## Support and contact details
  PLEASE for any queries,clarifications,support or additions reach me through; +254741186519 OR kibetkirui010@gmail.com.Your contributions and ideas to this code is highly welcomed and appreciated.
