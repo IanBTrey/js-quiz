@@ -20,7 +20,7 @@ $(document).ready(function() {
 
     var percent=totalScore/100 *100;
     if(percent>=80 && percent <=100){
-      alert("excellent")
+      alert("excellent...on your way to the top!!!")
     }
     else if (percent>=50 && percent <80) {
       alert("Fair...you can do better mate!")
