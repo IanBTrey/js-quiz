@@ -16,6 +16,7 @@ Negative.
 | each question        |                              |                             |
 | 3.Total score          | 8/10,5/10-7/10,below 5/10    | pass,fair,fail               |
 |  4.Evaluation of results | pass,fair,fail               | excellent,fair attempt,retake |
+## Techologies used
 This project runs on HTML,CSS and JAVASCRIPT.
 ## Support and contact details
  PLEASE for any queries,clarifications,support or additions reach me through; +254741186519 OR kibetkirui010@gmail.com.Your contributions and ideas to this code is highly welcomed and appreciated.
