@@ -20,4 +20,3 @@ Negative.
 This project runs on HTML,CSS and JAVASCRIPT.
 ## Support and contact details
  PLEASE for any queries,clarifications,support or additions reach me through; +254741186519 OR kibetkirui010@gmail.com.Your contributions and ideas to this code is highly welcomed and appreciated.
-### License
