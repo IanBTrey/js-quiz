@@ -8,18 +8,19 @@ The project works on grounds of a compatible browser,good network and internet s
 ## Known Bugs
 Negative.
 ## BDD
-| :--------------------| :----------------------------| :---------------------------|
+
 | Behavior             | Input                        | Output                      |
 | :--------------------| :----------------------------| :---------------------------|
-| Gathering user input | Click one out of four choices| "correct"/"not correct"      |
-| :--------------------| :----------------------------| :---------------------------|
+|                      |                              |                             |
+| Gathering user input | Click one out of four choices| "correct"/"not correct"     |
+|                      |                              |                             |
 | Awarding points for  |right/wrong                   |  10pts/0pts                 |
 | each question        |                              |                             |
-| :--------------------| :----------------------------| :---------------------------|
-| Total score          | 8/10,5/10-7/10,below 5/10    |pass,fair,fail               |
-| :--------------------| :----------------------------| :---------------------------|
-| Evaluation of results| pass,fair,fail               |excellent,fair attempt,retake|
-| :--------------------| :----------------------------| :---------------------------|
+|                      |                              |                             |
+| Total score          | 8/10,5/10-7/10,below 5/10    | pass,fair,fail               |
+|                      |                              |                             |
+|  Evaluation of results | pass,fair,fail               | excellent,fair attempt,retake |
+|                      |                              |                             |
 ## Technologies Used
 This project runs on HTML,CSS and JAVASCRIPT.
 ## Support and contact details
