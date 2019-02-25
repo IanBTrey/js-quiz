@@ -1,3 +1,4 @@
+//====Business logic =====//
 $(document).ready(function() {
 
   $("form#mumbiForm").submit(function(event){
